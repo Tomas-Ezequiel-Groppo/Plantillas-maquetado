@@ -27,11 +27,13 @@ main{
     height: 19vh;
     width:100%;
     background-color: rgb(55, 55, 55);
+    display:flex;
 }
 .stres{
     height:55vh;
     width:100%;
     background-color: rgb(75,74,74);
+    display: flex;
 }
 .scuatro{
     height: 20vh;
@@ -45,15 +47,14 @@ main{
     justify-content: flex-start;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 2vw;
 }
 .suno2{
     display: flex;
     height: 100%;
-    width: 25vw;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 2vw;
+    width: 66vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
 }
 .suno1box{
     height: 4vh;
@@ -64,9 +65,67 @@ main{
     height: 2vh;
     width: 16vh;
     background-color: white;
+    margin:1vw
 }
 .suno2boxx{
     height: 2vh;
     width: 10vh;
     background-color: rgb(55, 55, 55);
+    margin-right: 6vw;
+    margin-left:1vw;
 }
+.sdos1{
+    height:100%;
+    width:56vw;
+    display: flex;
+    flex-direction: column;
+}
+.sdos1boy{
+    height: 50%;
+    width:100%;
+}
+.sdos1box{
+    height: 50%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sdos1boxx{
+    margin-top: 3vh;
+    height:1vh;
+    width:10vw;
+    background-color: rgb(197, 195, 195);
+    margin-left:3vw;
+    margin-right: 3vw;
+}
+.sdos2{
+    height:100%;
+    width:42vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sdos2box{
+    width: 30vw;
+    height: 5.5vh;
+    background-color: white;
+}
+.sdos2boxx{
+    width: 3.5vw;
+    height: 5.5vh;
+    background-color: rgb(247, 113, 90);
+}
+.stres1{
+height:100%;
+width:30vw;
+background-color: blueviolet;
+}
+.stres2{
+    height:100%;
+width:69vw;
+background-color: yellow;
+}
+
+
+
