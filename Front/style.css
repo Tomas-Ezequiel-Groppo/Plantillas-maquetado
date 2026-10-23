@@ -128,7 +128,9 @@ align-items: center;
 .stres2{
     height:100%;
 width:69vw;
-background-color: yellow;
+background-color: rgb(75,74,74);
+display: flex;
+flex-direction: column;
 }
 .stres1box{
     height: 40vh;
@@ -138,10 +140,64 @@ background-color: yellow;
 .stres1boxx{
     height:10%;
     width:100%;
-    border: solid;
-    border-color: black;
-    border-width: 0.1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
-
-
+.stres1boxxx1{
+    background-color: rgb(75,74,74);
+    height: 1vh;
+    aspect-ratio: 1/1;
+}
+.stres1boxxx2{
+    background-color: rgb(75,74,74);
+    height:0.75vh;
+    width: 10vw;
+}
+.stres2box{
+    height:30%;
+    width:100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stres2boy{
+    height:70%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.stres2boybox{
+    height: 100%;
+    width: 7.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stres2boyboy{
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextbutton{
+    height: 7.5vh;
+    aspect-ratio: 1/1;
+    background-color: white;
+}
+.videosquare{
+    height: 35vh;
+    aspect-ratio: 16/9;
+    background-color: rgb(247, 113, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playbutton{
+    background-color: white;
+    height:7.5vh;
+    aspect-ratio: 1/1;
+}
