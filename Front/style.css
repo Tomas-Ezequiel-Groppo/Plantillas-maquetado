@@ -131,6 +131,8 @@ width:69vw;
 background-color: rgb(75,74,74);
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .stres1box{
     height: 40vh;
@@ -157,7 +159,7 @@ flex-direction: column;
 }
 .stres2box{
     height:30%;
-    width:100%;
+    width:33vw;
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -200,4 +202,17 @@ flex-direction: column;
     background-color: white;
     height:7.5vh;
     aspect-ratio: 1/1;
+}
+.stres2boxbox{
+    height:100%;
+    width:33.33%;
+    border: solid;
+    border-color: black;
+    border-width: 0.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stres2boxboxbox{
+    height:1px;
 }
