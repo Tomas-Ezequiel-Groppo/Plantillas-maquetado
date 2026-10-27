@@ -40,6 +40,7 @@ main{
     width: 100%;
     background-color: rgb(55,55,55);
     display: flex;
+    flex-direction: column;
 }
 .suno1{
     display: flex;
@@ -159,8 +160,7 @@ align-items: center;
 }
 .stres2box{
     height:30%;
-    width:33vw;
-    background-color: aquamarine;
+    width:31vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,13 +206,66 @@ align-items: center;
 .stres2boxbox{
     height:100%;
     width:33.33%;
-    border: solid;
-    border-color: black;
-    border-width: 0.3vw;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .stres2boxboxbox{
-    height:1px;
+    height:8vh;
+    width:14.22vh;
+    background-color: rgb(55, 55, 55);
+}
+.stres2boxboxboy{
+    height:7vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.stres2boxboxboybox{
+    height:1vh;
+    width:100%;
+    background-color: rgb(197, 195, 195);
+    margin: 0px;
+}
+.stres2boxboxboyboy{
+    height:1vh;
+    width:50%;
+    background-color: rgb(197, 195, 195);
+    margin: 0px;
+}
+.scuatro1{
+    height: 70%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.scuatro2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.scuatro2box{
+    height: 100%;
+    width: 55%;
+}
+.scuatro2boy{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.scuatro2boybox{
+    height: 1vh;
+    width:6vw;
+    background-color: rgb(75,74,74);
+}
+.scuatro1box{
+    height: 100%;
+    width:17vw;
+    background-color: red;
 }
