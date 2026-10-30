@@ -238,7 +238,7 @@ align-items: center;
 .scuatro1{
     height: 70%;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(55, 55, 55);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -267,5 +267,41 @@ align-items: center;
 .scuatro1box{
     height: 100%;
     width:17vw;
-    background-color: red;
+}
+.scuatro1box1{
+    height : 30%;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scuatro1box2{
+    height : 70%;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.scuatro1box1box{
+    height: 2vh;
+    width: 100%;
+    background-color: rgb(75,74,74);
+}
+.scuatro1box2box{
+    height: 0.5vh;
+    width: 100%;
+    background-color: rgb(75,74,74);
+    color: rgb(75,74,74);
+}
+.scuatro1box2boxx{
+    height: 0.5vh;
+    width: 80%;
+    background-color: rgb(75,74,74);
+    color: rgb(75,74,74);
+}
+.scuatro1box2boxy{
+    height: 0.5vh;
+    width: 50%;
+    background-color: rgb(75,74,74);
+    color: rgb(75,74,74);
 }
